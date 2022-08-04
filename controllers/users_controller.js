@@ -45,15 +45,6 @@ module.exports.create = function (req, res) {
             return;
         }
         if (!user) {
-            // User.create(name : req.body.name,
-            //     email : req.body.email,
-            //     sAdmin : false,
-            //     password : req.body.password, function (err, user) {
-            //         if (err) {
-            //             console.log('error in creating user while signing up');
-            //             req.flash('error', 'Error while creating user!!!');
-            //             return;
-            //         }
             User.create({
                 name: req.body.name,
                 email: req.body.email,

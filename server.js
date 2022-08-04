@@ -15,7 +15,7 @@ const MongoStore = require('connect-mongo');
 const flash = require('connect-flash');
 const customMware = require('./config/middleware');
 
-// for gettingform data
+// for getting form data
 app.use(express.urlencoded({ extended: true }));
 
 // for static files
@@ -34,7 +34,7 @@ app.set('views', './views');
 
 // middleware for use session cookie
 app.use(session({
-    name: 'Review-session',
+    name: 'ReviewSystem',
     secret: 'nothing',
     saveUninitialized: false,
     resave: false,
@@ -42,7 +42,8 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb://localhost:27017/reviewSystem_DB',
+        // mongoUrl: 'mongodb://localhost:27017/reviewSystem_DB',
+        mongoUrl: `mongodb+srv://GingFreecss:0w0EWJaCREyi4Iwh@cluster0.im0xv.mongodb.net/employeeReview?retryWrites=true&w=majority`,
         autoRemove: 'disabled',
     }, function (err) {
         console.log(err || 'connect-mongodb setup');
