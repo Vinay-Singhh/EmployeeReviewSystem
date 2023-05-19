@@ -1,0 +1,44 @@
+[debug] [2023-05-19T07:19:24.191Z] ----------------------------------------------------------------------
+[debug] [2023-05-19T07:19:24.192Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-05-19T07:19:24.192Z] CLI Version:   12.0.1
+[debug] [2023-05-19T07:19:24.192Z] Platform:      darwin
+[debug] [2023-05-19T07:19:24.192Z] Node Version:  v16.15.0
+[debug] [2023-05-19T07:19:24.198Z] Time:          Fri May 19 2023 12:49:24 GMT+0530 (India Standard Time)
+[debug] [2023-05-19T07:19:24.198Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-19T07:19:24.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-19T07:19:24.228Z] > authorizing via signed-in user (vsvinaysingh14@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vinaysingh/Downloads/WebDevelopment/EmployeeReview
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-19T07:19:28.546Z] Using project from CLI flag: employee-review-systemm
+[debug] [2023-05-19T07:19:28.550Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/employee-review-systemm [none]
+[debug] [2023-05-19T07:19:29.129Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/employee-review-systemm 200
+[debug] [2023-05-19T07:19:29.129Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/employee-review-systemm {"projectId":"employee-review-systemm","projectNumber":"67925334864","displayName":"employee-review-systemm","name":"projects/employee-review-systemm","resources":{"hostingSite":"employee-review-systemm","realtimeDatabaseInstance":"employee-review-systemm-default-rtdb"},"state":"ACTIVE","etag":"1_f65485eb-4573-4eab-b1d3-a0cc2d77fef4"}
+[info] i  Using project employee-review-systemm (employee-review-systemm) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
