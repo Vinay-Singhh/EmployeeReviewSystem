@@ -4,10 +4,10 @@
   "description": "Employee review system",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "firebase deploy",
-    "login": "firebase login"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vinay",
   "license": "ISC",
