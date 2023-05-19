@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0.im0xv.mongodb.net/?retryWrites=true&w=majority`);
-// mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0.im0xv.mongodb.net/employeeReview?retryWrites=true&w=majority`);
 // mongoose.connect('mongodb://localhost:27017/reviewSystem_DB');
+// mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0.im0xv.mongodb.net/employeeReview?retryWrites=true&w=majority`);
+mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0.im0xv.mongodb.net/?retryWrites=true&w=majority`);
 
 const db = mongoose.connection;
 
