@@ -1,6 +1,6 @@
 # Employee Review System
 The App is hosted on Heroku
-## [Project Link](https://employee-review-systemm.herokuapp.com)
+## [Project Link](https://employee-review-systemm.onrender.com)
 ## Description
 A project is used to submit a review amongst employees in a company and there is an admin who can see all employees, he can create any employee and can delete any employee. Also an admin can assign admin role to any employee.
 
